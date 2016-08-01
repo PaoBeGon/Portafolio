@@ -1,0 +1,63 @@
+body {
+  background: url("../img/sativa.png");
+}
+
+.logo img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.menu ul {
+  position: fixed;
+  margin-top: 75px;
+}
+
+.menu img {
+  position: fixed;
+}
+
+.menu a {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #571C3C;
+  padding: 2px;
+  font-family: "Life Savers", cursive;
+}
+
+.menu a:hover {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #EF2478;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.bienvenida h1 {
+  font-family: "Life Savers", cursive;
+  margin-top: 300px;
+  color: #571C3C;
+}
+
+.bienvenida h2 {
+  font-family: "Life Savers", cursive;
+  margin-top: 20px;
+  margin-bottom: 300px;
+  color: #571C3C;
+}
+
+.fondo2 h1 {
+  font-family: "Life Savers", cursive;
+  color: #EF2478;
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+.imgsm {
+  margin-bottom: 50px;
+}
+
+.foto img {
+  width: 300px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}

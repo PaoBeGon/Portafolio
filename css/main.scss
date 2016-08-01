@@ -1,0 +1,62 @@
+$color_fondo:#30142D;
+$color_morado2:#571C3C;
+$color_crema:#FFF0C9;
+$color_amarillo:#FDCA52;
+$color_fuccia:#EF2478;
+$fuente:'Limelight', cursive;
+$fuente2:'Life Savers', cursive;
+body{
+	background:url("../img/sativa.png");
+}
+.logo img{
+	width:200px;
+	margin-top:20px;
+}
+.menu ul{
+	position: fixed;
+	margin-top:75px;
+}
+.menu  img{
+	position: fixed;
+}
+.menu a{
+	margin-top:5px;
+	font-size:18px;
+	color:$color_morado2;
+	padding:2px;
+	font-family:$fuente2;
+}
+.menu a:hover{
+	margin-top:5px;
+	font-size:18px;
+	color:$color_fuccia;
+	padding:2px;
+	text-decoration:none;
+}
+.bienvenida h1{
+	font-family:$fuente2;
+	margin-top:300px;
+	color:$color_morado2;
+}
+.bienvenida h2{
+	font-family:$fuente2;
+	margin-top:20px;
+	margin-bottom:300px;
+	color:$color_morado2;
+}
+// fin del homme
+// inicio sobremi
+.fondo2 h1{
+	font-family: $fuente2;
+	color:$color_fuccia;
+	margin-bottom: 50px;
+	margin-top:150px;
+}
+.imgsm{
+	margin-bottom:50px;
+}
+.foto img{
+	width:300px;
+	margin-left:150px;
+	margin-bottom:50px;
+}
