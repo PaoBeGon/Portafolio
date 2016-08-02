@@ -10,9 +10,12 @@ $fuente2:'Life Savers', cursive;
 body{
 	background:url("../img/sativa.png");
 }
+
 .logo img{
 	width:200px;
 	margin-top:20px;
+	transform-origin: 24px 24px;
+	animation: rotateBall 1s infinite forwards;
 }
 .menu ul{
 	position: fixed;
@@ -27,24 +30,43 @@ body{
 	color:$color_morado2;
 	padding:2px;
 	font-family:$fuente2;
+	scroll:2s;
 }
 .menu a:hover{
 	font-size:25px;
 	color:$color_fuccia;
 	padding:2px;
 	text-decoration:none;
-	font-family:$fuente;
+	font-family:$fuente2;
+	border: 2px solid $color_fuccia;
+	padding: 2px;
 }
+
 .bienvenida h1{
 	font-family:$fuente;
 	margin-top:300px;
 	color:$color_fondo;
+	animation-duration: 3s;
+  	animation-name: slidein;
 }
 .bienvenida h2{
 	font-family:$fuente2;
 	margin-top:20px;
 	margin-bottom:300px;
 	color:$color_morado2;
+	animation-duration: 3s;
+  	animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 // fin del homme
 // inicio sobremi
@@ -162,3 +184,14 @@ body{
 	margin-bottom:130px;
 	overflow:hidden;
 }
+
+a.navbar:hover{
+	color:red; font-weight:bold;background-image:url(http://www.nackvision.com/myspace/links/lightningline.gif);
+	}
+	a:hover, a.redlink:hover, a.navbar:hover {
+		background-image:url(http://www.nackvision.com/myspace/links/lightningline.gif); 
+		text-decoration:none; border:0px solid;
+		}
+		a:hover img {
+			background-image:url(http://www.nackvision.com/myspace/links/lightningline.gif); 
+	 }
