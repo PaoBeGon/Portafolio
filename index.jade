@@ -4,13 +4,13 @@ html(lang='en')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Portfolio Theme
+    title Paola Begazo:.
     link(rel="stylesheet", href="css/main.css")
     // Bootstrap Core CSS
     link(rel='stylesheet', href='css/bootstrap.min.css', type='text/css')
     // Custom Fonts
-    link(href='https://fonts.googleapis.com/css?family=Life+Savers' rel='stylesheet' type='text/css')
-    link(href='https://fonts.googleapis.com/css?family=Limelight', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='font-awesome/css/font-awesome.min.css', type='text/css')
     // Plugin CSS
     link(rel='stylesheet', href='css/animate.min.css', type='text/css')
@@ -22,88 +22,85 @@ html(lang='en')
     //if lt IE 9
       script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
       script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
-  body
-    .container-fluid.fondo1
-        .container
-            .row.menu
-                .col-md-6.logo
-                    img.img-responsive(src="img/pb2.png")
-                .col-md-6
-                    center
-                    ul.list-unstyled.list-inline
-                        li 
-                            a.navbar(href="index.html") INICIO
-                        li 
-                            a(href="#sobremi") SOBRE MÍ
-                        li 
-                            a(href="#habilidades") HABILIDADES
-                        li 
-                            a(href="#portafolio") PORTFOLIO
-                        li 
-                            a(href="#contacto") CONTACTO
-            .row.bienvenida
-                h1.text-center.slideOutUp ¡BIENVENIDOS!
-                h2.text-center "Te ofresco webs dinámicas, minimalistas y diseñadas para celulares."
-        .container
-            #sobremi
-            .row.fondo2 
-                h1.text-center PAOLA BEGAZO...
-                hr.linea
-                .col-md-6.foto
-                    img.img-responsive(src="img/paola.jpg")
-                .col-md-6.descript
-                    p.text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
-                    .row.intereses
-                        .col-md-3
-                            div 
-                                img(src="img/lap.png")
-                        .col-md-3
-                            div 
-                                img(src="img/chef.png")
-                        .col-md-3
-                            div 
-                                img(src="img/dog.png")
-                        .col-md-3
-                            div 
-                                img(src="img/paz.png")
-            #habilidades
-            .row.fondo3
-                h1.text-center MIS HABLIDADES
-                hr.linea
-                .col-md-6
-                    img(src="img/html.png")
-                    img(src="img/css.png")
-                    img(src="img/boo.png")
-                    img(src="img/sass.png")
-                .col-md-6
-                    img(src="img/wp.png")
-                    img(src="img/angular.png")
-                    img(src="img/js.png")
-                    img(src="img/jade.png")
-            #portafolio
-            .row.fondo4
-                h1.text-center PORTAFOLIO
-                hr.linea
-                .col-md-6
-                    a(href="#")
-                        img(src="img/akakau.png")
-                    img(src="img/danza.png")
-                    img(src="img/eco.png")
-                .col-md-6
-                    img(src="img/flat.png")
-                    img(src="img/wpp.png")
-                    img(src="img/primes.png")
-<style type="text/css"> a.navbar:hover{color:red; font-weight:bold;background-image:url(http://www.nackvision.com/myspace/links/lightningline.gif);} a:hover, a.redlink:hover, a.navbar:hover {background-image:url(http://www.nackvision.com/myspace/links/lightningline.gif); text-decoration:none; border:0px solid;} a:hover img {background-image:url(http://www.nackvision.com/myspace/links/lightningline.gif); filter:alpha(finishopacity=0, style=2); } </style>
+  body.fondog
+    #inicio
+    header
+        .container-fluid.fondo-header
+            .container
+                .row.nav
+                    ul.list-inline.list-unstyled#ul
+                        li
+                            a(href="#inicio") Inicio
+                        li
+                            a(href="#yo") Yo
+                        li
+                            a(href="#habilidades") Habilidades
+                        li
+                            a(href="#proyectos") Proyectos
+                        li
+                            a(href="#contacto") Contacto
+                .row.presentacion
+                    .col-md-6
+                        img(src="img/paola.jpg")
+                    .col-md-6
+                        h1.text-center Paola<br>Begazo Gonzales
+                        h2.text-center Front-End Developer
+    #yo
+    content
+        .container-fluid
+            .container.fondo-content
+                .row.yo
+                    p.text-center Hola! soy Pao y descubrí el código gracias a Laboratoria, aunque siempre me llamó<br>la atencion el mundo de la tecnología y la programación entonces fue asi que se volvio una de mis pasiones.<br>Además de ser una coder, soy una apasionada de la comida y la cocteleria Peruana por eso también soy Chef.<br>Soy una persona positiva, me encantan los perritos y tengo muchas ganas de seguir creciendo como persona y como profesional.<br>¡VOY POR MÁS!
 
-    // jQuery
-    script(src='js/jquery.js')
-    // Bootstrap Core JavaScript
-    script(src='js/bootstrap.min.js')
-    // Plugin JavaScript
-    script(src='js/jquery.easing.min.js')
-    script(src='js/jquery.fittext.js')
-    script(src='js/wow.min.js')
-    // Custom Theme JavaScript
-    script(src='js/creative.js')
-    script(src='js/index.js')
+                .row.img-interest
+                    .col-md-3
+                        img(src="img/lap.png")
+                    .col-md-3
+                        img(src="img/dog.png")
+                    .col-md-3
+                        img(src="img/chef.png")
+                    .col-md-3
+                        img(src="img/paz.png")
+    #habilidades
+    content2#efepara
+        .container-fluid.fondo-content2
+            .container
+                .row.habilidades
+                    .col-md-3
+                        .thumbnail
+                            img(src="img/html.png")
+                        .thumbnail
+                            img(src="img/css.png")
+                    .col-md-3
+                        .thumbnail
+                            img(src="img/boo.png")
+                        .thumbnail
+                            img(src="img/sass.png")
+                    .col-md-3
+                        .thumbnail
+                            img(src="img/wp.png")
+                        .thumbnail
+                            img(src="img/angular.png")
+                    .col-md-3
+                        .thumbnail
+                            img(src="img/js.png")
+                        .thumbnail
+                            img(src="img/jade.png")
+    #proyectos
+    content3
+        .container-fluid.fondo-content3
+            .container
+                .row.proyect
+                    .col-md-6
+                        a(href="#")
+                            img(src="img/akakau.png")
+                        img(src="img/danza.png")
+                        img(src="img/eco.png")
+                    .col-md-6
+                        img(src="img/flat.png")
+                        img(src="img/wpp.png")
+                        a(href="https://primes-paolabg.c9users.io/primes.html")
+                            img(src="img/primes.png")
+
+
 
